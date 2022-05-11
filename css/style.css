@@ -1,0 +1,64 @@
+@import url("variables.css");
+@import url("buttons.css");
+@import url("cards.css");
+@import url("navbar.css");
+
+:root {
+    --bs-primary: #1abc9c;
+    --bs-primary-rgb: 26, 188, 156;
+
+    --my-primary-dark: #199f84;
+    --my-primary-dark-rgb: 25, 159, 132;
+
+    --bs-secondary: #3a546d;
+    --bs-secondary-rgb: 58, 84, 109;
+
+    --bs-dark: #2c3e50;
+    --bs-dark-rgb: 44, 62, 80;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.section:not(.full-height) {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.bg-black {
+    background-color: var(--bs-black-rgb);
+}
+
+.bg-jumbo {
+    background-image: url("../img/jumbo-bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.sony-logo {
+    max-height: 15px;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0);
+}
+
+.nav-link-icon {
+    color: rgba(0,0,0,.55);
+    padding-left: 5px;
+}
+
+.btn {
+    border-radius: 50px;
+}
+
+
+.section:not(.full-height) {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
