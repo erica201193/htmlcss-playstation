@@ -3,23 +3,12 @@
 @import url("cards.css");
 @import url("navbar.css");
 
-:root {
-    --bs-primary: #1abc9c;
-    --bs-primary-rgb: 26, 188, 156;
-
-    --my-primary-dark: #199f84;
-    --my-primary-dark-rgb: 25, 159, 132;
-
-    --bs-secondary: #3a546d;
-    --bs-secondary-rgb: 58, 84, 109;
-
-    --bs-dark: #2c3e50;
-    --bs-dark-rgb: 44, 62, 80;
-}
-
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+}
+
+a {
+    text-decoration: none;
 }
 
 .section:not(.full-height) {
@@ -31,15 +20,38 @@ body {
     background-color: var(--bs-black-rgb);
 }
 
-.bg-jumbo {
-    background-image: url("../img/jumbo-bg.png");
-    background-size: cover;
-    background-position: center;
+
+
+.jumbo-bg-image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    object-fit: contain;
+}
+
+.jumbo-bg-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.banner-jumbo {
+    padding-top: 250px;
+    color: white;
+}
+
+.returnal-logo img {
+    max-width: 200px;
 }
 
 .sony-logo {
     max-height: 15px;
 }
+
+
 
 
 .navbar-light .navbar-nav .nav-link {
@@ -51,6 +63,9 @@ body {
     padding-left: 5px;
 }
 
+
+
+
 .btn {
     border-radius: 50px;
 }
@@ -61,4 +76,49 @@ body {
     padding-bottom: 2rem;
 }
 
+.my-card-border img {
+    object-fit: fill ;
+}
 
+
+
+
+.play5-slider img {
+    width: 100%;
+    height: 100%;
+}
+
+.play5-slider-border {
+    border-bottom: 2px solid transparent;
+}
+.play5-slider {
+    color: rgba(0,0,0,.5);
+}
+
+.play5-slider-border:hover {   
+    border-bottom: 2px solid rgba(var(--bs-primary-rgb));
+}
+
+.play5-slider:hover {
+    color: black;
+}
+
+
+
+.bg-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.bg-gray {
+    background-color: #1F1F1F;
+    color: white;
+}
+
+.new-games img {
+    width: 100%;
+    height: 100%;
+}
