@@ -12,14 +12,15 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <div class="bg-black">
-            <div class="container-fluid">
-                <div class="py-2 d-flex justify-content-end">
-                    <img src="img/sony_logo.svg" alt="" class="sony-logo">
-                </div>
+    <!-- Sony black bg -->
+    <div class="bg-black">
+        <div class="container-fluid">
+            <div class="py-2 d-flex justify-content-end">
+                <img src="img/sony_logo.svg" alt="" class="sony-logo">
             </div>
         </div>
+    </div>
+    <header class="sticky-top">
 <!-- Navbar -->
         <div class="bg-white">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -99,7 +100,7 @@
             </div>
             <div class="container position-relative">
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-sm-12 col-lg-4">
                         <div class="banner-jumbo pb-5">
                             <div class="returnal-logo"><img src="img/returnal-hero-banner-logo.png" alt=""></div>
                             <h1 class="py-4">Rompi il cerchio</h1>
@@ -150,15 +151,17 @@
         <div class="section">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 text-center">
+                    <div class="col-12 text-center text-black">
                         <h5 class="text-uppercase text-primary">play has no limits</h5>
                         <h2>Ecco la PlayStation 5</h2>
-                        <p>Tuffati in nuove possibilità di gioco completamente inaspettate</p>
+                        <h5 class="grey-text">Tuffati in nuove possibilità di gioco completamente inaspettate</h5>
                     </div>
-                    <div class="col-5">
-                        <h2>Console Playstation 5</h2>
-                        <p>Sperimenta la nuova generazione di incredibili giochi PlayStation</p>
-                        <a type="button" class="btn btn-primary">Maggiori informazioni</a>
+                    <div class="col-5 text-black d-flex align-items-center">
+                        <div>
+                            <h3>Console Playstation 5</h3>
+                            <h6 class="grey-text">Sperimenta la nuova generazione di incredibili giochi PlayStation</h6>
+                            <a type="button" class="btn btn-primary">Maggiori informazioni</a>
+                        </div>
                     </div>
                     <div class="col-7">
                         <div class="play5-slider">
@@ -213,7 +216,7 @@
         </div>
         <!-- Banner "It takes two" -->
         <div class="section full-height it-takes-two-bg">
-            <div class="container">
+            <div class="container py-5">
                 <div class="row">
                     <div class="col-4">
                         <div class="text-white">
@@ -229,7 +232,7 @@
 
         <!-- Nuove uscite -->
         <div class="section full-height bg-gray">
-            <div class="container">
+            <div class="container py-5">
                 <h3>Nuove uscite</h3>
                 <h5>Giochi incredibili per PS4 e PS5 disponibili ora</h5>
                 <div class="row py-4">
@@ -391,7 +394,7 @@
         <!-- Sconti Playstation Store -->
         <div class="section">
             <div class="container grey-text">
-                <div class="text-center">
+                <div class="text-center pb-5 pt-3">
                     <h2 class="text-black">Nuovi sconti sul Playstation Store</h2>
                     <h5>Sconti pazzeschi, collezioni curate e saldi stagionali su PS5, PS4 e PS VR, tutti in un unico posto.</h5>
                 </div>
@@ -439,9 +442,9 @@
 
         <!-- Social Media -->
         <div class="section">
-            <div class="container">
+            <div class="container py-5 my-3">
                 <div class="text-center">
-                    <h2 class="text-black">Seguici sui social media</h2>
+                    <h2 class="text-black pb-5">Seguici sui social media</h2>
                 </div>
                 <div class="d-flex gap-4 justify-content-center flex-wrap">
                     <div class="social-logo">
@@ -465,8 +468,8 @@
         <div class="section full-height">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 col-sm-12">
-                        <div class="footer-card py-3">
+                    <div class="col-lg-6 col-sm-12 pt-5">
+                        <div class="footer-card">
                             <svg class="shared-nav-ps-logo" width="50px" height="50px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50" data-di-res-id="51237b9e-85bdd8e5" data-di-rand="1620209019838">
                                 <g>
                                 <g>
@@ -484,7 +487,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-sm-12">
+                    <div class="col-lg-6 col-sm-12 pt-5">
                         <div class="row pt-3">
                             <div class="col-md-4">
                                 <ul>
@@ -517,7 +520,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-sm-12 py-5">
+                    <div class="col-lg-6 col-sm-12 pt-5">
                         <div class="sony-interact-logo">
                             <img src="img/sie-logo.svg" alt="">
                         </div>
